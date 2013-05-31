@@ -1,0 +1,9 @@
+#parameters:
+#    bix_category.example.class: Bix\Bundle\CategoryBundle\Example
+
+#services:
+#    bix_category.example:
+#        class: %bix_category.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+

@@ -1,0 +1,13 @@
+<h1>Tutte le categorie</h1>
+{% for cat in allCat %}
+    <ul>
+        <li>{{ cat.name }}</li>
+    </ul>
+{% endfor %}
+
+<h1>Figli di pizza</h1>
+{% for pizza in pizzaChildrens %}
+    {{ pizza.name }} <br />
+{% endfor %}
+
+{% render controller('BixCategoryBundle:Category:catMenu') %}
